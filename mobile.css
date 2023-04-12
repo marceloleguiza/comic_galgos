@@ -1,0 +1,127 @@
+
+
+h2 {
+	font-size: 1.5rem;
+}
+
+
+
+
+
+.display-1 {
+	font-size: 3rem;
+	
+}
+
+.display-2 {
+	font-size: 1.5rem;
+}
+
+.display-3 {
+	font-size: 1rem;
+
+}
+
+
+
+.flex {
+	flex-direction: column;
+
+}
+
+
+
+
+
+.pt-1 {
+
+	padding-top: 350px;
+}
+
+.pt-2 {
+
+	padding-top: 40px;
+}
+
+.pt-3 {
+
+	padding-top: 20px;
+}
+
+.pb-1 {
+
+	padding-bottom: 80px;
+}
+
+.pb-2 {
+
+	padding-bottom: 40px;
+}
+
+.pb-3 {
+
+	padding-bottom: 20px;
+}
+
+.pr-1 {
+	padding-right: 0;
+}
+
+/*.m1 {
+
+	margin: 20px;
+}
+*/
+
+
+
+.btn-outline {
+
+	padding: 5px;
+}
+
+#mainheader {
+
+	height: 100%;
+}
+
+.navbar {
+
+    padding-top: 20px;
+}
+
+
+.navbar ul li{
+
+	font-size: 14px;
+	padding: 12px;
+	
+}
+
+#preview img{
+padding: 10px 20px;
+height: 120px;
+
+
+}
+
+#preview .txt-large {
+font-size: 1rem;
+}
+
+
+
+
+#download .flex-box:nth-child(2) {
+	text-align: center;
+   
+   }
+
+   #showcase,
+   #author,
+   #download {
+text-align: center;
+
+   }
+
+ 

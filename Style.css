@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+html,
+body {
+
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: -2px;
+	font-weight: 500;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.display-1 {
+	font-size: 5rem;
+	font-family: 'Sigmar One', sans-serif;
+	text-shadow: rgb(35, 935, 5) 0.1em 0.1em 0.2em;
+}
+
+.display-2 {
+	font-size: 3rem;
+}
+
+.display-3 {
+	font-size: 1.3rem;
+
+}
+
+.display-1,
+.display-2 {
+
+	font-weight: 300;
+
+}
+
+.flex {
+	display: flex;
+
+}
+
+.flex-fixed {
+
+	display: flex;
+}
+
+.flex-box {
+
+	flex: 1;
+	
+}
+
+.bk-header {
+    
+	background: url(Assets/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	
+}
+
+.bk-color {
+	background: linear-gradient(70deg, blue, pink);
+
+}
+
+.bk-color-light {
+	background: linear-gradient(70deg, blue, pink);
+
+}
+
+.bk-black {
+	background: #000000;
+
+}
+
+.bk-shadow {
+	
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pt-1 {
+
+	padding-top: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.pt-2 {
+
+	padding-top: 80px;
+	
+}
+
+.pt-3 {
+
+	padding-top: 40px;
+}
+
+.pb-1 {
+
+	padding-bottom: 200px;
+}
+
+.pb-2 {
+
+	padding-bottom: 80px;
+}
+
+.pb-3 {
+
+	padding-bottom: 40px;
+	
+}
+
+.m-1 {
+
+	margin: 20px;
+	
+}
+
+.txt-large {
+
+	font-size: 20px;
+}
+
+.txt-center {
+
+	text-align: center;
+}
+
+.btn {
+
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 25px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 59px;
+	border: none;
+	
+}
+
+
+
+.btn-dark {
+
+	background: #000;
+	color: azure;
+}
+
+.btn-outline {
+
+	border: 2px solid #000000;
+	border-radius: 20px;
+	padding: 12px 15px;
+}
+
+#mainheader {
+
+	height: 100vh;
+}
+
+.navbar a {
+
+	color: #ffffff;
+	font-weight: 500;
+	cursor: pointer;
+
+
+}
+
+.navbar .container {
+
+	display: flex;
+	justify-content: end;
+}
+
+.navbar ul {
+
+	display: flex;
+
+}
+
+.navbar ul li {
+
+	list-style: none;
+	padding: 30px 20px;
+	
+
+}
+
+#preview img {
+	background: linear-gradient(to right, blue, pink);
+	padding: 40px 60px;
+	height: 300px;
+	display: block;
+	margin: 0% auto;
+
+}
+
+#preview p {
+
+	padding-top: 20px;
+}
+
+
+#download img {
+	height: 500px;
+
+}
+
+#download .flex-box:nth-child(2) {
+	text-align: right;
+
+}
+
+#mainfooter {
+	text-align: center;
+	padding: 30px;
+}
